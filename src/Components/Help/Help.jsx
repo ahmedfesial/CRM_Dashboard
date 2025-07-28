@@ -3,7 +3,7 @@ import React from "react";
 export default function Help() {
   return (
     <>
-     <div className="text-center ms-26 md:mx-auto py-5 px-4 sm:px-8 bg-white rounded-2xl shadow-md mt-5 sm:mt-20 w-[70%] sm:w-[80%] md:w-[70%] max-w-3xl hover:shadow-2xl transition-shadow duration-300">
+     <div className="text-center my-10 ms-26 md:mx-auto py-10 px-4 sm:px-8 bg-white rounded-2xl shadow-md sm:mt-20 w-[70%] sm:w-[80%] md:w-[70%] max-w-3xl hover:shadow-2xl transition-shadow duration-300">
   <h2 className="text-xl sm:text-2xl font-bold mb-2 text-[#5932EA]">Need Help?</h2>
   
   <p className="text-gray-600 text-sm sm:text-base max-w-md mx-auto">

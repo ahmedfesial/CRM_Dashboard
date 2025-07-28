@@ -5,7 +5,7 @@ import Profile from'../../assets/Photos/Profile.jpg'
 export default function SlideBar() {
   return (
     <>
-      <div className='z-30 container bg-[#FFFFFF] h-lvh pt-6 flex flex-col justify-between w-[80px] md:w-[306px] transition-all duration-300'>
+      <div className='z-30 container bg-[#FFFFFF] h-[100%] md:h-lvh pt-6 flex flex-col justify-between w-[80px] md:w-[306px] transition-all duration-300'>
         <div>
           {/* Header */}
           <div className='flex items-center ps-8'>

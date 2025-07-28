@@ -4,7 +4,7 @@ export default function Dashboard() {
   return (
     <>
       {/* Header & Search */}
-      <div className="flex flex-col ms-14 md:ms-10 sm:flex-row justify-between items-start sm:items-center mt-4 px-4 sm:px-12 gap-4">
+      <div className="flex flex-col ms-20 md:ms-10 sm:flex-row justify-between items-start sm:items-center mt-4 px-4 sm:px-12 gap-4">
         <h1 className="text-2xl sm:text-3xl font-bold">Hello Ahmed 👋,</h1>
 
         {/* Search */}
@@ -34,9 +34,9 @@ export default function Dashboard() {
       </div>
 
       {/* Dashboard Cards  */}
-      <div className="grid grid-cols-1 ms-20 md:ms-0   md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6 px-4 sm:px-20">
+      <div className="grid grid-cols-1 ms-20 md:ms-0 md:grid-cols-1 xl:grid-cols-3 gap-4 mt-6 px-4 sm:px-20">
         {/* Card 1 */}
-        <div className="bg-white w-[380px] sm:w-full rounded-2xl p-4 flex items-center gap-4 hover:shadow-lg transition shadow-md">
+        <div className="bg-white w-[360px] sm:w-full rounded-2xl p-4 flex items-center gap-4 hover:shadow-lg transition shadow-md">
           <div className="w-[64px] h-[64px] bg-[#d3ffe7] text-[#00AC4F] flex justify-center items-center rounded-full">
             <i className="fa-solid fa-users text-xl"></i>
           </div>
@@ -53,7 +53,7 @@ export default function Dashboard() {
         </div>
 
         {/* Card 2 */}
-        <div className="bg-white w-[380px] sm:w-full rounded-2xl p-4 flex items-center gap-4 hover:shadow-lg transition shadow-md">
+        <div className="bg-white w-[360px] sm:w-full rounded-2xl p-4 flex items-center gap-4 hover:shadow-lg transition shadow-md">
           <div className="w-[64px] h-[64px] bg-[#d3ffe7] text-[#00AC4F] flex justify-center items-center rounded-full">
             <i className="fa-solid fa-user text-xl"></i>
           </div>
@@ -70,7 +70,7 @@ export default function Dashboard() {
         </div>
 
         {/* Card 3 */}
-        <div className="bg-white rounded-2xl p-4 w-[380px] sm:w-full flex items-center gap-4 hover:shadow-lg transition shadow-md">
+        <div className="bg-white rounded-2xl p-4 w-[360px] sm:w-full flex items-center gap-4 hover:shadow-lg transition shadow-md">
           <div className="w-[64px] h-[64px] bg-[#d3ffe7] text-[#00AC4F] flex justify-center items-center rounded-full">
             <i className="fa-solid fa-desktop text-xl"></i>
           </div>
