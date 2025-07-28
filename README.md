@@ -1,16 +1,20 @@
-<<<<<<< HEAD
-# React + Vite
+# CRM Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a responsive CRM (Customer Relationship Management) dashboard built with React.js and Tailwind CSS. It provides a clean and modern user interface for managing customer data, tracking sales, viewing analytics, and navigating between different sections such as income, promotions, and user profiles.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📊 Dashboard overview with quick stats
+- 🧭 Sidebar navigation with active route highlighting
+- 👤 User profile integration
+- 📱 Fully responsive design for mobile and desktop
+- 🎨 Tailwind CSS for fast and consistent styling
+- 🔄 React Router for page navigation
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# CRM_Dashboard
->>>>>>> 8ae90e214c466b701d33bb84031ec5140c612d9a
+- React.js
+- Tailwind CSS
+- React Router
+- Font Awesome for icons
+
